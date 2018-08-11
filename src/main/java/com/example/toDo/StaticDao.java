@@ -25,5 +25,4 @@ public class StaticDao implements TaskDao {
         }
         return scores;
     }
-
 }

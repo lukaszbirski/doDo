@@ -11,6 +11,7 @@ public class StaticDao implements TaskDao {
     public List<Task> findAll(){
         return tasks;
     }
+
     @Override
     public void addTask(Task task){
         tasks.add(task);
